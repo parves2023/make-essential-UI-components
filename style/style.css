@@ -106,7 +106,7 @@
   font-family: Work Sans;
 }
 .card {
-  max-width: 250px;
+  width: 250px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -125,3 +125,119 @@
   border-radius: 8px;
   background: rgba(82, 195, 3, 0.15);
 }
+
+
+/* start about section */
+#about-us {
+  height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.follow-us-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.follow-us-container > textarea{
+  width: 540px;
+  height: 245px;
+}
+
+#about-us .image-container {
+  width: 50%;
+}
+
+#about-us .image-container img {
+  width: 100%;
+}
+
+#about-us .follow-us-container {
+  width: 50%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  color: #008aff;
+}
+
+.fa-twitter {
+  color: #379edd;
+}
+
+.fa-instagram {
+  color: #E1306C;
+}
+
+.fa-pinterest {
+  color: #E60023;
+}
+
+.social-icons i {
+  font-size: 40px;
+}
+
+
+
+
+/* responsive for mobile */
+@media (max-width: 576px) { 
+  #hero .hero-content {
+    width: 100%;
+}
+#card-box {
+  width: 100% !important;
+  margin: 25px auto;
+}
+.card {
+  width: 100%;
+}
+.card .image-box {
+  max-width: 300px;
+}
+.card .image-box img {
+  max-width: 350px;
+}
+.card-container {
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  width: 100%;
+}
+#about-us {
+  height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#about-us .image-container {
+  width: 80%;
+}
+#about-us {
+  height: 440px;
+  display: flex;
+  margin-top: 60px;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+ }
