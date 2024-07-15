@@ -130,6 +130,8 @@
 /* start about section */
 #about-us {
   height: 440px;
+  max-width: 1080px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -139,9 +141,16 @@
   justify-content: center;
   align-items: center;
 }
-.follow-us-container > textarea{
-  width: 540px;
+.follow-us-container > .textarea{
+  width: 100%;
   height: 245px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+.textarea h1{
+  font-size: 2rem;
 }
 
 #about-us .image-container {
@@ -150,6 +159,7 @@
 
 #about-us .image-container img {
   width: 100%;
+  border-radius: 8px;
 }
 
 #about-us .follow-us-container {
@@ -203,17 +213,17 @@
     width: 100%;
 }
 #card-box {
-  width: 100% !important;
+  width: 100%;
   margin: 25px auto;
 }
 .card {
   width: 100%;
 }
 .card .image-box {
-  max-width: 300px;
+  width: 95%;
 }
 .card .image-box img {
-  max-width: 350px;
+  max-width: 100%;
 }
 .card-container {
   align-items: center;
